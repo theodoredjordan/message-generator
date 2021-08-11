@@ -1,13 +1,16 @@
+// Establish a dictionary for the generator to pull from
 const dictionary = {
     verbs : ['see', 'skip', 'run', 'fly'],
     adjectives : ['big', 'small', 'lazy', 'crazy'],
     nouns : ['tree', 'hotdog', 'mailbox', 'corn', 'yarn']
 };
 
+// Create a function to generate a random index for each array in the dictionary
 const randomizer = (max) => {
     return Math.floor(Math.random() * max);
 }
 
+// push random indexes into the canned messages
 let message = [];
 
 for (prop in dictionary) {
@@ -29,5 +32,8 @@ for (prop in dictionary) {
             break
     }
 };
-console.log(message);   
+
+//console.log(message);   
+
+// Display the messages that were generated
 message.forEach(element => console.log(element)) 
