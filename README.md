@@ -1,6 +1,6 @@
 # message-generator
 
-##Codecademy Portfolio Project #1
+## Codecademy Portfolio Project #1
 
 Thought I would tackle this project in two ways:
 1. As a Magic Eight Ball.  Why ...  becuase it is cool.
